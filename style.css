@@ -60,7 +60,7 @@ body {
     position: absolute;
     bottom: -8px;
     left: 0;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .form button {
@@ -75,3 +75,11 @@ body {
     margin-top: 14px;
 }
 
+.form-content.error input{
+   border-color: #ff3b25;
+}
+
+.form-content.error > a{
+    color: #ff3b25;
+    visibility: visible;
+}
