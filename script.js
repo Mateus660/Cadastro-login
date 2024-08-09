@@ -77,8 +77,8 @@ function checkform() {
   
     const formitems = form.querySelectorAll(".form-content")
 
-    const isvalid = [...formitems].every((item) => {
-        return item.className === "form-content"
+    const isvalid = [...formitems].every((item) => { 
+        return item.className === "form-content" 
     });
 
     console.log(isvalid)
